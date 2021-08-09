@@ -1,46 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Busqueda Avanzada</title>
+        <title>Google Imagenes</title>
         <link rel="stylesheet" href="index_estilo.css">
     </head>
     <body>
-        <img style="margin: 10px;" src="logo-Google.png" alt="Google Logo" width="75">
         <div id="derecha">
-            <div id="espacio2">
+            <div id="espacio">
                 <a href="index.html">
                     <input type="submit" value="Google">
                 </a>
             </div>
         </div>
-        <div id="avanzado">
-            <h1 style="color: red; font-family: Arial, sans-serif, Helvetica;">Busqueda Avanzada</h1>
-        </div>
-        <div id="linea"></div>
-        <div style="padding-top: 20px;margin-left: 30px ;">
-            <h0 style="font-family:Arial, sans-serif, Helvetica; font-size: 20px;">Buscar páginas con...</h0>
-        </div>    
-        <div>
-            <form action="https://google.com/search">
-                <div id="separar">
-                    <h0 class="texto" id="todo">Todas estas palabras:</h0>
-                    <input class="cuadros" type="text" name="as_q">
+        <center id="center">
+            <img id="img_logo" src="logo-Google.png" alt="Google Logo">
+            <div id="imgs_posicion">
+                <h0 id="imgs">Imágenes</h0>
+            </div>
+        </center>
+        <div id="centro" style="margin-top: -27px;">
+            <form action="https://images.google.com/images">
+                <div id="buscador">
+                    <input id="cuadro" type="text" name="q">
+                    <input id="busca" type="submit" value="Buscar">
                 </div>
-                <div id="separar">
-                    <h0 class="texto" id="exacto">Esta palabra o frase exactas:</h0>
-                    <input class="cuadros" type="text" name="as_epq">
-                </div>
-                <div id="separar">
-                    <h0 class="texto" id="cualquiera">Cualquiera de estas palabras:</h0>
-                    <input class="cuadros" type="text" name="as_oq">
-                </div>
-                <div id="separar">
-                    <h0 class="texto" id="ninguna">Ninguna de estas palabras:</h0>
-                    <input class="cuadros" type="text" name="as_eq">
-                </div>
-                <center style="margin-top: 50px;">
-                    <input id="busca_avanzada" type="submit" value="Busqueda Avanzada">
-                </center>
             </form>
         </div>
     </body>
