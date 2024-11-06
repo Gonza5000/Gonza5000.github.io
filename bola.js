@@ -9,7 +9,7 @@ class Bola{
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.radio, 0, Math.PI*2)
         ctx.fill()
-        //ctx.stroke()
+        ctx.stroke()
         ctx.closePath()
     }
 }
