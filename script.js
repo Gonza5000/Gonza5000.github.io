@@ -6,3 +6,4 @@ canvas.height = innerHeight
 
 let Bola = new Bola(canvas.width/2, canvas.height/2)
 Bola.dibujar()
+Bola.mover()
